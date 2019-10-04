@@ -3,6 +3,9 @@ name: Build and Test
 # This workflow will run on master branch and on any pull requests targeting master
 on:
   push:
+    branches:
+      - master
+    tags: []
   pull_request:
 
 jobs:
